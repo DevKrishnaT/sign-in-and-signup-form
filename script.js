@@ -3,7 +3,10 @@ const info = document.querySelector('#para-1');
 const button = document.querySelector('#login');
 const fullName =document.querySelector('.name');
 const mainHadding = document.querySelector('#hadding');
+const image = document.querySelector('#image');
+const passInput = document.querySelector('#password');
 let no = 0;
+let passNo = 0;
 
 
 hadding.addEventListener('click' , () =>{
@@ -31,3 +34,14 @@ hadding.addEventListener('click' , () =>{
 
     }
 });
+image.addEventListener('click', () => {
+      if(passNo === 0){
+        image.src = 'eye.png';
+        passInput.type = 'text';
+        passNo = 1;
+      } else{
+        image.src = 'hidden.png';
+        passInput.type = 'password';
+        passNo = 0;
+      }
+})

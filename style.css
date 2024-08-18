@@ -133,6 +133,7 @@ input::placeholder {
     font-size: 16px;
     text-transform: capitalize;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .name {
@@ -175,6 +176,13 @@ input{
     border: 2px solid #060606;
     outline: none;
     margin-bottom: 20px;
+}
+.password img{
+    height: 22px;
+    width: 22px;
+    padding-top: 13px;
+    padding-right: 15px;
+    cursor: pointer;
 }
 
 .password i {
