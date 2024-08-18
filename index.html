@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="background">
+        <div class="mainContainer">
+            <div class="title">
+                <h1 id="hadding">Sign up</h1>
+                <div class="underline"></div>
+            </div>
+            <form>
+                <div class="content">
+                    <div class="name same">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="fullName" placeholder="username" required>
+                    </div>
+                    <div class="num same">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input id="email" type="text" placeholder="Number , email" required>
+                    </div>
+                    <div class="password same">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" placeholder="enter password" required>
+                    </div>
+                </div>
+                <div class="option">
+                    <p id="para-1">Already have account.</p>
+                    <p id="para-2">Sing in!</p>
+
+                </div>
+                <div class="button">
+                    <button id="login">create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
